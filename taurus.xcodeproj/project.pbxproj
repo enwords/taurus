@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1DA0B7E6B31D55538C40ED /* taurusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA9776A18DF5A8DF1FA13 /* taurusTests.swift */; };
+		CD1DA2504479278D94C9E440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1DA9D7AAB4D2985A3A308C /* LaunchScreen.storyboard */; };
+		CD1DA515F582BDC930F0CFC2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA6D2A963F2839546963C /* FirstViewController.swift */; };
+		CD1DA5B00479B07F4115F2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1DAE83290429ECFA842EA9 /* Assets.xcassets */; };
+		CD1DA7446D65EDE9E1B96975 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA17A74AFECDF387FB4BA /* SecondViewController.swift */; };
+		CD1DAA9F7B7AAE3F7270061F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA13CA812DB120B6C6DC7 /* AppDelegate.swift */; };
+		CD1DACC9DF27B59EA7205AF6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CD1DA34B73F5A98720E69683 /* .gitignore */; };
+		CD1DAE20E7FA0E281F6D880E /* taurusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA05361C9E6156503D2E8 /* taurusUITests.swift */; };
+		CD1DAFFC4BC4EDBD572CEE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1DA0C4CF095E7A75EA7E4F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1DA94ED60E6F186B3B26B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1DA5E04A9DA33B7DF58826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1DADCCE0B3345F6A76062D;
+			remoteInfo = taurus;
+		};
+		CD1DADEE891BA7308E698376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1DA5E04A9DA33B7DF58826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1DADCCE0B3345F6A76062D;
+			remoteInfo = taurus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD1DA05361C9E6156503D2E8 /* taurusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taurusUITests.swift; sourceTree = "<group>"; };
+		CD1DA0A5D35174B5C5397BEA /* taurusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taurusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1DA0D451BF3AA51489FF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		CD1DA13CA812DB120B6C6DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD1DA17A74AFECDF387FB4BA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CD1DA23D7CE3B5BC578B70D4 /* taurusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taurusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1DA34B73F5A98720E69683 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		CD1DA6D2A963F2839546963C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CD1DA77D5A174BF8C86F299C /* taurus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taurus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1DA84173A32D0A73835C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		CD1DA9776A18DF5A8DF1FA13 /* taurusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taurusTests.swift; sourceTree = "<group>"; };
+		CD1DA9A4A2FD3C0ADE2B73F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1DAE084EEEA239DACCF2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		CD1DAE61FE38A772180400E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD1DAE83290429ECFA842EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1DA1185E2A22DEDD8F0D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1DAC9A7B1A916075E9A520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1DAD32A204D5668D901D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1DA28AD3073DCBFDF4CA23 /* taurusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1DA84173A32D0A73835C8A /* Info.plist */,
+				CD1DA05361C9E6156503D2E8 /* taurusUITests.swift */,
+			);
+			path = taurusUITests;
+			sourceTree = "<group>";
+		};
+		CD1DA2C73AA27A8B05F0FFED /* taurus */ = {
+			isa = PBXGroup;
+			children = (
+				CD1DA0D451BF3AA51489FF40 /* Info.plist */,
+				CD1DAE83290429ECFA842EA9 /* Assets.xcassets */,
+				CD1DA9D7AAB4D2985A3A308C /* LaunchScreen.storyboard */,
+				CD1DA13CA812DB120B6C6DC7 /* AppDelegate.swift */,
+				CD1DA0C4CF095E7A75EA7E4F /* Main.storyboard */,
+				CD1DA6D2A963F2839546963C /* FirstViewController.swift */,
+				CD1DA17A74AFECDF387FB4BA /* SecondViewController.swift */,
+			);
+			path = taurus;
+			sourceTree = "<group>";
+		};
+		CD1DAA8CBC06526006AC6305 /* taurusTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1DAE084EEEA239DACCF2E0 /* Info.plist */,
+				CD1DA9776A18DF5A8DF1FA13 /* taurusTests.swift */,
+			);
+			path = taurusTests;
+			sourceTree = "<group>";
+		};
+		CD1DAEC4C91296F7799DBD47 = {
+			isa = PBXGroup;
+			children = (
+				CD1DAF75FE2A4504B952FC89 /* Products */,
+				CD1DA2C73AA27A8B05F0FFED /* taurus */,
+				CD1DAA8CBC06526006AC6305 /* taurusTests */,
+				CD1DA28AD3073DCBFDF4CA23 /* taurusUITests */,
+				CD1DA34B73F5A98720E69683 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1DAF75FE2A4504B952FC89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1DA77D5A174BF8C86F299C /* taurus.app */,
+				CD1DA23D7CE3B5BC578B70D4 /* taurusTests.xctest */,
+				CD1DA0A5D35174B5C5397BEA /* taurusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1DA08D5BA29032BD3AB89F /* taurusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1DAFAC8155DF638E85434A /* Build configuration list for PBXNativeTarget "taurusTests" */;
+			buildPhases = (
+				CD1DABFA61C985A6EA77085D /* Sources */,
+				CD1DA1185E2A22DEDD8F0D3A /* Frameworks */,
+				CD1DA1D75D6EBD3CDC4987B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1DA9D57DF4862D290FFA33 /* PBXTargetDependency */,
+			);
+			name = taurusTests;
+			productName = taurusTests;
+			productReference = CD1DA23D7CE3B5BC578B70D4 /* taurusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD1DAB2031689F0BEC2AF4FA /* taurusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1DA1596778818723F1621A /* Build configuration list for PBXNativeTarget "taurusUITests" */;
+			buildPhases = (
+				CD1DA4AD8CD0999FF3356874 /* Sources */,
+				CD1DAD32A204D5668D901D8C /* Frameworks */,
+				CD1DAA01144FEBB58F503146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1DA024C6A5FACE9AC978D4 /* PBXTargetDependency */,
+			);
+			name = taurusUITests;
+			productName = taurusUITests;
+			productReference = CD1DA0A5D35174B5C5397BEA /* taurusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD1DADCCE0B3345F6A76062D /* taurus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1DA6D7E4AF172CC72323BA /* Build configuration list for PBXNativeTarget "taurus" */;
+			buildPhases = (
+				CD1DA71E9E8A0A3CCBF521E5 /* Sources */,
+				CD1DAC9A7B1A916075E9A520 /* Frameworks */,
+				CD1DAD77EAF47AC46B7F5F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taurus;
+			productName = taurus;
+			productReference = CD1DA77D5A174BF8C86F299C /* taurus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1DA5E04A9DA33B7DF58826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = enwords;
+			};
+			buildConfigurationList = CD1DACDEF63273BC447744D9 /* Build configuration list for PBXProject "taurus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD1DAEC4C91296F7799DBD47;
+			productRefGroup = CD1DAF75FE2A4504B952FC89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1DADCCE0B3345F6A76062D /* taurus */,
+				CD1DA08D5BA29032BD3AB89F /* taurusTests */,
+				CD1DAB2031689F0BEC2AF4FA /* taurusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1DA1D75D6EBD3CDC4987B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1DAA01144FEBB58F503146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1DAD77EAF47AC46B7F5F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1DA5B00479B07F4115F2AF /* Assets.xcassets in Resources */,
+				CD1DA2504479278D94C9E440 /* LaunchScreen.storyboard in Resources */,
+				CD1DAFFC4BC4EDBD572CEE03 /* Main.storyboard in Resources */,
+				CD1DACC9DF27B59EA7205AF6 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1DA4AD8CD0999FF3356874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1DAE20E7FA0E281F6D880E /* taurusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1DA71E9E8A0A3CCBF521E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1DAA9F7B7AAE3F7270061F /* AppDelegate.swift in Sources */,
+				CD1DA515F582BDC930F0CFC2 /* FirstViewController.swift in Sources */,
+				CD1DA7446D65EDE9E1B96975 /* SecondViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1DABFA61C985A6EA77085D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1DA0B7E6B31D55538C40ED /* taurusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1DA024C6A5FACE9AC978D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1DADCCE0B3345F6A76062D /* taurus */;
+			targetProxy = CD1DA94ED60E6F186B3B26B9 /* PBXContainerItemProxy */;
+		};
+		CD1DA9D57DF4862D290FFA33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1DADCCE0B3345F6A76062D /* taurus */;
+			targetProxy = CD1DADEE891BA7308E698376 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1DA0C4CF095E7A75EA7E4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1DA9A4A2FD3C0ADE2B73F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1DA9D7AAB4D2985A3A308C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1DAE61FE38A772180400E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1DA030111A9357238DF5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD1DA053759DA6147DA6A142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1DA714390399D1F1F591B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = taurusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.enwords.taurusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = taurus;
+			};
+			name = Debug;
+		};
+		CD1DAA14B140DB34CE981677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taurus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.enwords.taurus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD1DABA22695FB605BA4896A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = taurusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.enwords.taurusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = taurus;
+			};
+			name = Release;
+		};
+		CD1DAD4032074DF4AF7CF756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taurus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.enwords.taurus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD1DAD7987A60098A4745A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/taurus.app/taurus";
+				INFOPLIST_FILE = taurusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.enwords.taurusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		CD1DAFE43B0552CF43D14E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/taurus.app/taurus";
+				INFOPLIST_FILE = taurusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.enwords.taurusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1DA1596778818723F1621A /* Build configuration list for PBXNativeTarget "taurusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1DA714390399D1F1F591B3 /* Debug */,
+				CD1DABA22695FB605BA4896A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD1DA6D7E4AF172CC72323BA /* Build configuration list for PBXNativeTarget "taurus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1DAA14B140DB34CE981677 /* Debug */,
+				CD1DAD4032074DF4AF7CF756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD1DACDEF63273BC447744D9 /* Build configuration list for PBXProject "taurus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1DA030111A9357238DF5D9 /* Debug */,
+				CD1DA053759DA6147DA6A142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1DAFAC8155DF638E85434A /* Build configuration list for PBXNativeTarget "taurusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1DAD7987A60098A4745A82 /* Debug */,
+				CD1DAFE43B0552CF43D14E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1DA5E04A9DA33B7DF58826 /* Project object */;
+}
