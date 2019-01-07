@@ -12,8 +12,13 @@
 		CD1DA515F582BDC930F0CFC2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA6D2A963F2839546963C /* FirstViewController.swift */; };
 		CD1DA5B00479B07F4115F2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1DAE83290429ECFA842EA9 /* Assets.xcassets */; };
 		CD1DA7446D65EDE9E1B96975 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA17A74AFECDF387FB4BA /* SecondViewController.swift */; };
+		CD1DA86BF613FCE3611F4927 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DAAD148553E362EB52E47 /* HTTPHandler.swift */; };
+		CD1DA93AC02A9CDB31BD532D /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA1B55778EFCD2240C7E0 /* JSONParser.swift */; };
 		CD1DAA9F7B7AAE3F7270061F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA13CA812DB120B6C6DC7 /* AppDelegate.swift */; };
+		CD1DAC5917C0852AE6064654 /* WordsDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DAF3899B5A197B755A7CB /* WordsDataProcessor.swift */; };
 		CD1DACC9DF27B59EA7205AF6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CD1DA34B73F5A98720E69683 /* .gitignore */; };
+		CD1DAD06DEDCEF9763601546 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA89332864E535AA40847 /* CustomTableViewCell.swift */; };
+		CD1DAD476FDFD3E08F45B284 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA9DD2C1DC81D59F8BC46 /* Word.swift */; };
 		CD1DAE20E7FA0E281F6D880E /* taurusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DA05361C9E6156503D2E8 /* taurusUITests.swift */; };
 		CD1DAFFC4BC4EDBD572CEE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1DA0C4CF095E7A75EA7E4F /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -41,16 +46,21 @@
 		CD1DA0D451BF3AA51489FF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		CD1DA13CA812DB120B6C6DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD1DA17A74AFECDF387FB4BA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CD1DA1B55778EFCD2240C7E0 /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		CD1DA23D7CE3B5BC578B70D4 /* taurusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taurusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1DA34B73F5A98720E69683 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		CD1DA6D2A963F2839546963C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		CD1DA77D5A174BF8C86F299C /* taurus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taurus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1DA84173A32D0A73835C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		CD1DA89332864E535AA40847 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CD1DA9776A18DF5A8DF1FA13 /* taurusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taurusTests.swift; sourceTree = "<group>"; };
 		CD1DA9A4A2FD3C0ADE2B73F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1DA9DD2C1DC81D59F8BC46 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		CD1DAAD148553E362EB52E47 /* HTTPHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
 		CD1DAE084EEEA239DACCF2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		CD1DAE61FE38A772180400E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD1DAE83290429ECFA842EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1DAF3899B5A197B755A7CB /* WordsDataProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsDataProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,13 +100,18 @@
 		CD1DA2C73AA27A8B05F0FFED /* taurus */ = {
 			isa = PBXGroup;
 			children = (
+				CD1DA0C4CF095E7A75EA7E4F /* Main.storyboard */,
+				CD1DA9D7AAB4D2985A3A308C /* LaunchScreen.storyboard */,
 				CD1DA0D451BF3AA51489FF40 /* Info.plist */,
 				CD1DAE83290429ECFA842EA9 /* Assets.xcassets */,
-				CD1DA9D7AAB4D2985A3A308C /* LaunchScreen.storyboard */,
 				CD1DA13CA812DB120B6C6DC7 /* AppDelegate.swift */,
-				CD1DA0C4CF095E7A75EA7E4F /* Main.storyboard */,
 				CD1DA6D2A963F2839546963C /* FirstViewController.swift */,
 				CD1DA17A74AFECDF387FB4BA /* SecondViewController.swift */,
+				CD1DAAD148553E362EB52E47 /* HTTPHandler.swift */,
+				CD1DA1B55778EFCD2240C7E0 /* JSONParser.swift */,
+				CD1DAF3899B5A197B755A7CB /* WordsDataProcessor.swift */,
+				CD1DA9DD2C1DC81D59F8BC46 /* Word.swift */,
+				CD1DA89332864E535AA40847 /* CustomTableViewCell.swift */,
 			);
 			path = taurus;
 			sourceTree = "<group>";
@@ -258,6 +273,11 @@
 				CD1DAA9F7B7AAE3F7270061F /* AppDelegate.swift in Sources */,
 				CD1DA515F582BDC930F0CFC2 /* FirstViewController.swift in Sources */,
 				CD1DA7446D65EDE9E1B96975 /* SecondViewController.swift in Sources */,
+				CD1DA86BF613FCE3611F4927 /* HTTPHandler.swift in Sources */,
+				CD1DA93AC02A9CDB31BD532D /* JSONParser.swift in Sources */,
+				CD1DAC5917C0852AE6064654 /* WordsDataProcessor.swift in Sources */,
+				CD1DAD476FDFD3E08F45B284 /* Word.swift in Sources */,
+				CD1DAD06DEDCEF9763601546 /* CustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,8 +434,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -510,6 +529,7 @@
 				CD1DABA22695FB605BA4896A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD1DA6D7E4AF172CC72323BA /* Build configuration list for PBXNativeTarget "taurus" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +538,7 @@
 				CD1DAD4032074DF4AF7CF756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD1DACDEF63273BC447744D9 /* Build configuration list for PBXProject "taurus" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +556,7 @@
 				CD1DAFE43B0552CF43D14E41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
