@@ -5,10 +5,13 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     @IBOutlet var mainTableView: UITableView!
 
+    @IBAction func didTapExerciseButton(sender: UIButton!) {
+        createExercise()
+    }
+
     override func viewWillAppear(_ animated: Bool) {
         mainTableView.reloadData()
         super.viewWillAppear(animated)
-//        getWordsResults.append(Word(id: 1, value: "Batman"))
         print("Opening words")
         getWords(status: "learning")
     }
@@ -34,7 +37,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let wordCell = tableView.dequeueReusableCell(withIdentifier: "customcell", for: indexPath) as! CustomTableViewCell
+        let wordCell = tableView.dequeueReusableCell(withIdentifier: "WordCell", for: indexPath) as! CustomTableViewCell
         let idx: Int = indexPath.row
         let word = getWordsResults[idx]
         wordCell.wordId?.text = String(word.id)
@@ -44,8 +47,8 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
 
     func getWords(status: String) {
-        let url = "https://enwords.tk/api/mobile/words?status=\(status)"
-        HTTPHandler.getJson(urlString: url, completionHandler: wordsCompletion)
+        let url = URL(string: "https://enwords.tk/api/mobile/words?status=\(status)")
+        try! HTTPHandler.get(url: url!, completionHandler: wordsCompletion)
     }
 
     func wordsCompletion(data: Data?) -> Void {
@@ -58,6 +61,27 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
                 }
             }
         }
+    }
+
+    func createExercise() {
+        let url = URL(string: "https://enwords.tk/api/mobile/trainings")
+        let words = self.getWordsResults
+        var word_ids: [Int64] = []
+        for word in words {
+            word_ids.append(word.id)
+        }
+
+        try! HTTPHandler.post(
+                url: url!,
+                body: ["word_ids": word_ids, "training_type": "repeating"],
+                completionHandler: createExerciseCompletion
+        )
+    }
+
+    func createExerciseCompletion(data: Data?) -> Void {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "SecondView") as! SecondViewController
+        self.present(nextViewController, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

@@ -9,6 +9,7 @@
 import XCTest
 
 class taurusUITests: XCTestCase {
+    var app: XCUIApplication!
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -17,8 +18,8 @@ class taurusUITests: XCTestCase {
         continueAfterFailure = false
 
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        XCUIApplication().launch()
-
+        app = XCUIApplication()
+        app.launch()
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
 
@@ -31,4 +32,11 @@ class taurusUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
+    func testExerciseButton() {
+        let button = app.buttons["Exercise!"]
+        button.tap()
+        let completedExpectation = expectation(description: "Completed")
+        completedExpectation.fulfill()
+        waitForExpectations(timeout: 3.0, handler: nil)
+    }
 }
